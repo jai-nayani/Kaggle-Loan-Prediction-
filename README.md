@@ -3,6 +3,7 @@
 [![Kaggle Competition](https://img.shields.io/badge/Kaggle-Playground_S5E11-blue?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/competitions/playground-series-s5e11)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-yellow?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Score](https://img.shields.io/badge/Leaderboard_Score-0.928%2B-success?style=for-the-badge)](https://github.com/jai-nayani/Kaggle-Loan-Prediction-)
+[![Rank](https://img.shields.io/badge/Peak_Rank-275-gold?style=for-the-badge)](https://www.kaggle.com/competitions/playground-series-s5e11/leaderboard)
 
 A comprehensive solution for the **Kaggle Playground Series Season 5, Episode 11** competition. This project demonstrates an end-to-end machine learning pipeline combining multiple advanced techniques to achieve a top-tier score of **0.928+**.
 
@@ -206,11 +207,13 @@ rank_avg = np.argsort(np.argsort(preds)).mean(axis=1)
 
 ## 📈 Results & Performance
 
-| Approach | OOF Score | LB Score | Notes |
-|----------|-----------|----------|-------|
-| Single Conservative LGB | 0.92632 | 0.92666 | Baseline |
-| 5-Model Ensemble | ~0.927-0.928 | **0.928+** | This solution |
-| With Residual Boosting | ~0.928-0.929 | **0.9285-0.929** | If original dataset available |
+| Approach | OOF Score | LB Score | Leaderboard Rank | Notes |
+|----------|-----------|----------|------------------|-------|
+| Single Conservative LGB | 0.92632 | 0.92666 | - | Baseline |
+| 5-Model Ensemble | ~0.927-0.928 | **0.928+** | **#275** 🏆 | This solution |
+| With Residual Boosting | ~0.928-0.929 | **0.9285-0.929** | Top 200+ | If original dataset available |
+
+**Achievement:** Peak leaderboard position **#275** out of all competitors!
 
 **Key Insights:**
 - **Ensemble diversity** is crucial: 5 models > 1 model
@@ -305,4 +308,5 @@ This project is for educational purposes. Please respect Kaggle's competition ru
 
 **Last Updated**: November 2024  
 **Competition**: Kaggle Playground Series S5E11  
-**Best Score**: 0.928+ (Top 10%)
+**Best Score**: 0.928+  
+**Peak Leaderboard Rank**: #275 🏆
