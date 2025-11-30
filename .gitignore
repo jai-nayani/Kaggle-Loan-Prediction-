@@ -1,0 +1,48 @@
+# Competition Data (DO NOT UPLOAD)
+Loan/train.csv
+Loan/test.csv
+Loan/sample_submission.csv
+*.pkl
+*.db
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.txt
+
+# PDFs (competition docs)
+*.pdf
+
+# Model artifacts
+*.pkl
+*.h5
+*.hdf5
+
+# Keep these
+!Loan/Ultimate_Ensemble.ipynb
+!Loan/submission_ultimate_ensemble.csv
+!README.md
