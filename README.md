@@ -92,7 +92,7 @@ The code automatically evaluates all blends on OOF predictions and selects the w
 
 ```
 ├── Loan/
-│   ├── Ultimate_Ensemble.ipynb          # 🏆 Main solution (0.928+)
+│   ├── Ultimate_Ensemble.ipynb          # 🏆 Main solution (0.92755, Rank #275)
 │   ├── Conservative_Solution_0.92755.ipynb  # Conservative baseline
 │   ├── Ultimate_Loan_Payback.ipynb      # Residual boosting approach
 │   ├── submission_ultimate_ensemble.csv # Final submission file
